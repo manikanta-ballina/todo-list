@@ -18,7 +18,7 @@ function checked_remove_item(event){
         event.target.classList.toggle('checked');
     }
    else if(event.target.tagName==='SPAN'){
-    event.target.parentElement.remove();
+    event.target.parentElement.remove();;
    }
 }
 
