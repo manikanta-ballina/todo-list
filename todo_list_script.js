@@ -21,3 +21,4 @@ function checked_remove_item(event){
     event.target.parentElement.remove();
    }
 }
+
